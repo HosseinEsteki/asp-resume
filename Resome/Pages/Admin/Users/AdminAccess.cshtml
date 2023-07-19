@@ -1,0 +1,60 @@
+﻿@page
+@model Resome.Pages.Admin.Users.AdminAccessModel
+
+@{
+	ViewData["Title"] = "دسترسی ادمین";
+}
+<style>
+	table td {
+		vertical-align: baseline !important;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	table .image {
+		width: 150px
+	}
+</style>
+<section class="section pt-85">
+	<div class="container">
+		<div class="widget">
+
+
+			<h3>دسترسی ادمین</h3>
+
+			<h5>از این کار مطمئنی؟</h5>
+			<div>
+				<hr />
+				<dl class="row">
+					
+					<dt class="col-sm-2">
+						@Html.DisplayNameFor(model => model.User.Email)
+					</dt>
+					<dd class="col-sm-10">
+						@Html.DisplayFor(model => model.User.Email)
+					</dd>
+					<dt class="col-sm-2">
+						@Html.DisplayNameFor(model => model.User.FirstName)
+					</dt>
+					<dd class="col-sm-10">
+						@Html.DisplayFor(model => model.User.FirstName)
+					</dd>
+					<dt class="col-sm-2">
+						@Html.DisplayNameFor(model => model.User.LastName)
+					</dt>
+					<dd class="col-sm-10">
+						@Html.DisplayFor(model => model.User.LastName)
+					</dd>
+				</dl>
+
+				<form method="post">
+					<input type="hidden" asp-for="User.Id" />
+					<input type="submit" value="آره بابا" class="btn btn-danger" /> |
+					<a asp-page="./index">بیخیالش</a>
+				</form>
+			</div>
+
+		</div>
+	</div>
+</section>
+

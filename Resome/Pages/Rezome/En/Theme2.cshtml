@@ -1,0 +1,203 @@
+﻿@page
+@using Resome.Pages.Rezome;
+@model ThemeModel
+@{
+	Layout = null;
+	User user = Model.user;
+	Property property = Model.Property;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>قالب دوم</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel="stylesheet" href="~/Theme2/style.css">
+	<link href="~/template/css/font.css" rel="stylesheet" />
+	<link rel="stylesheet" href="~/template/css/bootstrap.min.css">
+
+</head>
+<body>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<div class="resume-wrapper">
+		<section class="profile section-padding">
+			<div class="container">
+				<div class="picture-resume-wrapper">
+					<div class="picture-resume">
+						<span><img src="~/image/users/@user.Image" alt="" /></span>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="name-wrapper">
+					<h1>@user.FirstName <br />@user.LastName</h1>
+				</div>
+				<div class="clearfix"></div>
+				<div class="contact-info clearfix">
+					<ul class="list-titles">
+						<li>Call</li>
+						<li>Mail</li>
+						<li>Home</li>
+					</ul>
+					<ul class="list-content ">
+						<li>@property.Phone</li>
+						<li>@user.Email</li>
+						<li>@property.Address</li>
+					</ul>
+				</div>
+				<div class="contact-presentation">
+					<p>@user.Biography</p>
+				</div>
+				<div class="contact-social clearfix">
+					<ul class="list-titles">
+						<li>Birth</li>
+						<li>Gender</li>
+						<li>Married</li>
+						<li>Soldire</li>
+					</ul>
+					<ul class="list-content">
+						<li><a>@property.Birth</a></li>
+						<li><a>@property.Gender</a></li>
+						<li><a>@property.Marry</a></li>
+						<li><a>@property.Sarbaz</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="experience section-padding">
+			<div class="container">
+				<h3 class="experience-title">Education</h3>
+
+				<div class="experience-wrapper">
+					<div class="company-wrapper clearfix">
+						<div class="experience-title">University Name</div>
+						<div class="time">@property.UniStart1 - @property.UniEnd1</div>
+					</div>
+
+					<div class="job-wrapper clearfix">
+						<div class="experience-title">@property.Uni1 </div>
+						<div class="company-description">
+							@property.Maghta1
+						</div>
+					</div>
+
+					<div class="company-wrapper clearfix">
+						<div class="experience-title">University Name</div>
+						<div class="time">@property.UniStart2 - @property.UniEnd2</div>
+					</div>
+
+					<div class="job-wrapper clearfix">
+						<div class="experience-title">@property.Uni2 </div>
+						<div class="company-description">
+							@property.Maghta2
+						</div>
+					</div>
+
+				</div>
+
+				<h3 class="experience-title">Experience</h3>
+
+				<div class="experience-wrapper">
+					<div class="company-wrapper clearfix">
+						<div class="experience-title">Company Name</div>
+						<div class="time">@property.JobStart1 - @property.JobEnd1</div>
+					</div>
+
+					<div class="job-wrapper clearfix">
+						<div class="experience-title">@property.Company1 </div>
+						<div class="company-description">
+							@property.Job1 • @property.City1
+						</div>
+					</div>
+
+					<div class="company-wrapper clearfix">
+						<div class="experience-title">Company Name</div>
+						<div class="time">@property.JobStart2 - @property.JobEnd2</div>
+					</div>
+
+					<div class="job-wrapper clearfix">
+						<div class="experience-title">@property.Company2 </div>
+						<div class="company-description">
+							@property.Job2 •  @property.City2
+						</div>
+					</div>
+				</div>
+
+				<h3 class="experience-title">Projects</h3>
+
+				<div class="experience-wrapper">
+					<div class="company-wrapper clearfix">
+						<div class="experience-title">Project Name</div>
+						<div class="time">@property.ProjectStart1 - @property.ProjectEnd1</div>
+					</div>
+
+					<div class="job-wrapper clearfix">
+						<div class="experience-title"><a href="@property.Link1">@property.Project1</a> </div>
+						<div class="company-description">
+							@property.Karfarma1
+						</div>
+					</div>
+					<div class="company-wrapper clearfix">
+						<div class="experience-title">Project Name</div>
+						<div class="time">@property.ProjectStart2 - @property.ProjectEnd2</div>
+					</div>
+
+					<div class="job-wrapper clearfix">
+						<div class="experience-title"><a href="@property.Link2">@property.Project2</a> </div>
+						<div class="company-description">
+							@property.Karfarma2
+						</div>
+					</div>
+
+				</div>
+				<h3 class="experience-title">Articles</h3>
+
+				<div class="experience-wrapper">
+					<div class="company-wrapper clearfix">
+						<div class="experience-title">Article Name</div>
+						<div class="time">@property.ArticleStart1 - @property.ArticleEnd1</div>
+					</div>
+
+					<div class="job-wrapper clearfix">
+						<div class="experience-title"><a href="@property.Mortabet1">@property.Article1</a> </div>
+						<div class="company-description">
+							@property.Nasher1
+						</div>
+					</div>
+					<div class="company-wrapper clearfix">
+						<div class="experience-title">Article Name</div>
+						<div class="time">@property.ArticleStart2 - @property.ArticleEnd2</div>
+					</div>
+
+					<div class="job-wrapper clearfix">
+						<div class="experience-title"><a href="@property.Mortabet2">@property.Article2</a> </div>
+						<div class="company-description">
+							@property.Nasher2
+						</div>
+					</div>
+
+
+				</div>
+
+				<button type="button" class="btn btn-outline-warning" onclick="window.print()">چاپ صفحه</button>
+			</div>
+			<div class="row">
+				<div class="float-left col-md-12">
+					<div class="col-md-3">
+						<button type="button" class="btn btn-outline-secondary" onclick="window.print()">چاپ صفحه</button>
+					</div>
+					<div class="col-md-9"></div>
+				</div>
+			</div>
+		</section>
+
+		<div class="clearfix"></div>
+	</div>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="~/template/js/jquery-3.5.0.min.js"></script>
+	<script src="~/template/js/popper.min.js"></script>
+	<script src="~/template/js/bootstrap.min.js"></script>
+</body>
+</html>
+

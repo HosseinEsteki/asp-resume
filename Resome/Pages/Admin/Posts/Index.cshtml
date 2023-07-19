@@ -1,0 +1,92 @@
+﻿@page
+@model Resome.Pages.Admin.Posts.IndexModel
+
+@{
+	ViewData["Title"] = "مقالات";
+}
+
+<style>
+	table td {
+		vertical-align: baseline !important;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	table .image {
+		width: 150px
+	}
+</style>
+<section class="section pt-85">
+	<div class="container">
+		<div class="widget">
+			<h3>لیست مقالات</h3>
+
+			<p style="font-size:1.5rem">
+				<a asp-page="Create" class="btn btn-warning">مقاله جدید</a>
+			</p>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>
+							@Html.DisplayNameFor(model => model.Post[0].Image)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Post[0].Title)
+						</th>
+						<th class="col-md-3">
+							@Html.DisplayNameFor(model => model.Post[0].ShortDiscription)
+						</th>
+						<th>
+
+							@Html.DisplayNameFor(model => model.Post[0].Updated_At)
+						</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var item in Model.Post)
+					{
+						<tr>
+							@*<td class="image">
+						<img src="~/image/users/@item.Image" class="rounded w-75">
+						</td>*@
+							<td class="image">
+								<img class="rounded" src="~/image/posts/@item.Image">
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.Title)
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.ShortDiscription)
+							</td>
+							@*تبدیل تاریخ میلادی به شمسی*@
+							<td>
+								@{
+									DateTime Date = item.Updated_At;
+									PersianCalendar pc = new PersianCalendar();
+									string date;
+									int day, month, year ,hour, minute, secound;
+									secound = pc.GetSecond(Date);
+									minute = pc.GetMinute(Date);
+									hour = pc.GetHour(Date);
+									day = pc.GetDayOfMonth(Date);
+									month = pc.GetMonth(Date);
+									year = pc.GetYear(Date);
+
+
+									date = $"{year}/{month}/{day} {hour}:{minute}";
+								}
+								@date
+							</td>
+							<td>
+								<a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">ویرایش</a> |
+								<a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">حذف</a>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+
+		</div>
+	</div>
+</section>

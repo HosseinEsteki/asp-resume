@@ -1,0 +1,158 @@
+﻿@page
+@model Resome.Pages.PostModel
+@{
+	Post Post = Model.Post;
+	List<Post> Posts = Model.Posts;
+	User User = Model.User;
+}
+<!--post-->
+<section class="section pt-55">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-4 max-width">
+				<!--widget-author-->
+				<div class="widget">
+					<div class="widget-author">
+						<a href="~/author?id=@User.Id" class="image">
+							<img src="~/image/users/@User.Image" alt="">
+						</a>
+
+
+						<h6>
+							<span>@($"{User.FirstName} {User.LastName}")</span>
+						</h6>
+						<p>
+							@User.Biography
+						</p>
+
+
+						
+					</div>
+				</div>
+				<!--/-->
+				<!--widget-latest-posts-->
+				<div class="widget ">
+					<div class="section-title">
+						<h5>پست های اخیر</h5>
+					</div>
+					<ul class="widget-latest-posts">
+						@{
+							int i = 0;
+						}
+						@foreach (var item in Posts)
+						{
+							i++;
+							<li class="last-post">
+								<div class="image">
+									<a href="~/post?id=@item.Id">
+										<img src="~/image/posts/@item.Image" alt="...">
+									</a>
+								</div>
+								<div class="nb">@i</div>
+								<div class="content">
+									<p>
+										<a href="~/post?id=@item.Id">@item.Title</a>
+									</p>
+									@{
+										DateTime Date = item.Updated_At;
+										PersianCalendar pc = new PersianCalendar();
+										string date;
+										int day, month, year;
+
+
+										day = pc.GetDayOfMonth(Date);
+										month = pc.GetMonth(Date);
+										year = pc.GetYear(Date);
+
+										date = $"{year}/{month}/{day}";
+									}
+									<small>
+										<span class="icon_clock_alt"></span> @date
+									</small>
+								</div>
+							</li>
+							@if (i > 4) { break; }
+
+						}
+					</ul>
+				</div>
+				<!--/-->
+				<!--widget-Call-->
+				<div class="widget">
+					<div class="section-title">
+						<h5>شماره تماس</h5>
+					</div>
+					<ul class="widget-latest-posts">
+						<li class="last-post">
+							<div class="image">
+								<a href="post-default.html">
+									<img src="template/img/call/phone.png" alt="...">
+								</a>
+							</div>
+							<div class="content mt-auto mb-auto">
+								<p style="direction: ltr;" class="">
+									+98 31 3555 3375
+								</p>
+							</div>
+						</li>
+						<li class="last-post">
+							<div class="image">
+								<a href="post-default.html">
+									<img src="template/img/call/mobile.jpg" alt="...">
+								</a>
+							</div>
+							<div class="content mt-auto mb-auto">
+								<p style="direction: ltr;" class="">
+									+98 913 771 2530
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--/-->
+
+			</div>
+			<div class="col-lg-8 mb-20">
+				<!--Post-single-->
+				<div class="post-single">
+					<div class="post-single-image">
+						<img src="~/image/posts/@Post.Image" alt="">
+					</div>
+					<div class="post-single-content">
+						<h4>@Post.Title </h4>
+						<div class="post-single-info">
+							<ul class="list-inline">
+								<li><a href="~/author?id=@User.Id"><img src="~/image/users/@User.Image" alt=""></a></li>
+								<li><a href="~/author?id=@User.Id">@($"{User.FirstName} {User.LastName}")</a> </li>
+								<li class="dot"></li>
+								@{
+									DateTime Date1 = Post.Updated_At;
+									PersianCalendar pc1 = new PersianCalendar();
+									string date1;
+									int day1, month1, year1;
+
+
+									day1 = pc1.GetDayOfMonth(Date1);
+									month1 = pc1.GetMonth(Date1);
+									year1 = pc1.GetYear(Date1);
+
+									date1 = $"{year1}/{month1}/{day1}";
+								}
+								<li>@date1</li>
+								<li class="dot"></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="post-single-body">
+						@Html.Raw(Post.Description)
+					</div>
+
+					
+				</div>
+				<!--/-->
+			</div>
+		</div>
+	</div>
+</section>
+<!--/-->

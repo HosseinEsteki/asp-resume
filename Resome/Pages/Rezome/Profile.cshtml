@@ -1,0 +1,490 @@
+﻿@page
+@model Resome.Pages.Rezome.ProfileModel
+
+@{
+	ViewData["Title"] = "اطلاعات من";
+	//Layout = "~/Pages/Shared/_Layout2.cshtml";
+}
+@*در این قسمت از vue.js کمک گرفته شده است*@
+<section class="section pt-85">
+	<div class="wrapper card">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 mr-auto ml-auto shadow p-3 mb-5 bg-white rounded">
+					<form method="post" enctype="multipart/form-data" id="form1">
+
+						<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+						<input type="hidden" asp-for="Property.Id" />
+						<input type="hidden" asp-for="Property.UserId" />
+						<input type="hidden" asp-for="user.Id" />
+
+						<div class="row" v-show="part1">
+							<div class="col-md-12">
+								<div class="form-group">
+									<div class="text-center">
+										<label asp-for="user.Image" class="control-label"></label>
+									</div>
+									<div >
+
+										<img src="~/image/users/@Model.user.Image" class="w-25 rounded d-block mr-auto ml-auto mb-3" />
+									</div>
+									<input asp-for="Image" value="@Model.user.Image" class="form-control" />
+									<span asp-validation-for="user.Image" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<label asp-for="Property.Title" class="control-label"></label>
+									<input asp-for="Property.Title" class="form-control" />
+									<span asp-validation-for="Property.Title" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="user.FirstName" class="control-label"></label>
+									<input asp-for="user.FirstName" class="form-control" />
+									<span asp-validation-for="user.FirstName" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="user.LastName" class="control-label"></label>
+									<input asp-for="user.LastName" class="form-control" />
+									<span asp-validation-for="user.LastName" class="text-danger"></span>
+								</div>
+							</div>
+						</div>
+						<!-- Part2 -->
+						<div class="row" v-show="part2">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Birth" class="control-label"></label>
+									<input  asp-for="Property.Birth" class="form-control" />
+									<span asp-validation-for="Property.Birth" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="user.Biography" class="control-label"></label>
+									<textarea asp-for="user.Biography" class="form-control"></textarea>
+									<span asp-validation-for="user.Biography" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Phone" class="control-label"></label>
+									<input asp-for="Property.Phone" class="form-control" />
+									<span asp-validation-for="Property.Phone" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Gender" class="control-label"></label>
+									<select asp-for="Property.Gender" class="form-control">
+										<option value="مذکر">مذکر</option>
+										<option value="مونث">مونث</option>
+									</select>
+									<span asp-validation-for="Property.Gender" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Marry" class="control-label"></label>
+									<select asp-for="Property.Marry" class="form-control">
+										<option value="مجرد">مجرد</option>
+										<option value="متاهل">متاهل</option>
+									</select>
+									<span asp-validation-for="Property.Marry" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Sarbaz" class="control-label"></label>
+									<select asp-for="Property.Sarbaz" class="form-control">
+										<option value="معافیت تحصیلی">معافیت تحصیلی</option>
+										<option value="معافیت پزشکی">معافیت پزشکی</option>
+										<option value="مشغول به خدمت">مشغول به خدمت</option>
+										<option value="سرباز فراری">سرباز فراری</option>
+										<option value="پایان خدمت">پایان خدمت</option>
+									</select>
+									<span asp-validation-for="Property.Sarbaz" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.City" class="control-label"></label>
+									<input asp-for="Property.City" class="form-control" />
+									<span asp-validation-for="Property.City" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Address" class="control-label"></label>
+									<textarea asp-for="Property.Address" class="form-control"></textarea>
+									<span asp-validation-for="Property.Address" class="text-danger"></span>
+								</div>
+							</div>
+						</div>
+						<!-- Part3 -->
+						<div class="row" v-show="part3">
+
+
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Maghta1" class="control-label"></label>
+									<input asp-for="Property.Maghta1" class="form-control" />
+									<span asp-validation-for="Property.Maghta1" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Reshte1" class="control-label"></label>
+									<input asp-for="Property.Reshte1" class="form-control" />
+									<span asp-validation-for="Property.Reshte1" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Uni1" class="control-label"></label>
+									<input asp-for="Property.Uni1" class="form-control" />
+									<span asp-validation-for="Property.Uni1" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label asp-for="Property.UniStart1" class="control-label"></label>
+											<input asp-for="Property.UniStart1" class="form-control" />
+											<span asp-validation-for="Property.UniStart1" class="text-danger"></span>
+										</div>
+									</div>
+									<div class="col-md-6">
+
+										<div class="form-group">
+											<label asp-for="Property.UniEnd1" class="control-label"></label>
+											<input asp-for="Property.UniEnd1" class="form-control" />
+											<span asp-validation-for="Property.UniEnd1" class="text-danger"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12"><hr /></div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Maghta2" class="control-label"></label>
+									<input asp-for="Property.Maghta2" class="form-control" />
+									<span asp-validation-for="Property.Maghta2" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Reshte2" class="control-label"></label>
+									<input asp-for="Property.Reshte2" class="form-control" />
+									<span asp-validation-for="Property.Reshte2" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Uni2" class="control-label"></label>
+									<input asp-for="Property.Uni2" class="form-control" />
+									<span asp-validation-for="Property.Uni2" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label asp-for="Property.UniStart2" class="control-label"></label>
+											<input asp-for="Property.UniStart2" class="form-control" />
+											<span asp-validation-for="Property.UniStart2" class="text-danger"></span>
+										</div>
+									</div>
+									<div class="col-md-6">
+
+										<div class="form-group">
+											<label asp-for="Property.UniEnd2" class="control-label"></label>
+											<input asp-for="Property.UniEnd2" class="form-control" />
+											<span asp-validation-for="Property.UniEnd2" class="text-danger"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Part4-->
+						<div class="row" v-show="part4">
+
+
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Job1" class="control-label"></label>
+									<input asp-for="Property.Job1" class="form-control" />
+									<span asp-validation-for="Property.Job1" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Company1" class="control-label"></label>
+									<input asp-for="Property.Company1" class="form-control" />
+									<span asp-validation-for="Property.Company1" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.City1" class="control-label"></label>
+									<input asp-for="Property.City1" class="form-control" />
+									<span asp-validation-for="Property.City1" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label asp-for="Property.JobStart1" class="control-label"></label>
+											<input asp-for="Property.JobStart1" class="form-control" />
+											<span asp-validation-for="Property.JobStart1" class="text-danger"></span>
+										</div>
+									</div>
+									<div class="col-md-6">
+
+										<div class="form-group">
+											<label asp-for="Property.JobEnd1" class="control-label"></label>
+											<input asp-for="Property.JobEnd1" class="form-control" />
+											<span asp-validation-for="Property.JobEnd1" class="text-danger"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12"><hr /></div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Job2" class="control-label"></label>
+									<input asp-for="Property.Job2" class="form-control" />
+									<span asp-validation-for="Property.Job2" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Company2" class="control-label"></label>
+									<input asp-for="Property.Company2" class="form-control" />
+									<span asp-validation-for="Property.Company2" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.City2" class="control-label"></label>
+									<input asp-for="Property.City2" class="form-control" />
+									<span asp-validation-for="Property.City2" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label asp-for="Property.JobStart2" class="control-label"></label>
+											<input asp-for="Property.JobStart2" class="form-control" />
+											<span asp-validation-for="Property.JobStart2" class="text-danger"></span>
+										</div>
+									</div>
+									<div class="col-md-6">
+
+										<div class="form-group">
+											<label asp-for="Property.JobEnd2" class="control-label"></label>
+											<input asp-for="Property.JobEnd2" class="form-control" />
+											<span asp-validation-for="Property.JobEnd2" class="text-danger"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Part5 -->
+						<div class="row" v-show="part5">
+
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Project1" class="control-label"></label>
+									<input asp-for="Property.Project1" class="form-control" />
+									<span asp-validation-for="Property.Project1" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Karfarma1" class="control-label"></label>
+									<input asp-for="Property.Karfarma1" class="form-control" />
+									<span asp-validation-for="Property.Karfarma1" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Link1" class="control-label"></label>
+									<input asp-for="Property.Link1" class="form-control" />
+									<span asp-validation-for="Property.Link1" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label asp-for="Property.ProjectStart1" class="control-label"></label>
+											<input  asp-for="Property.ProjectStart1" class="form-control" />
+											<span asp-validation-for="Property.ProjectStart1" class="text-danger"></span>
+										</div>
+									</div>
+									<div class="col-md-6">
+
+										<div class="form-group">
+											<label asp-for="Property.ProjectEnd1" class="control-label"></label>
+											<input  asp-for="Property.ProjectEnd1" class="form-control" />
+											<span asp-validation-for="Property.ProjectEnd1" class="text-danger"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12"><hr /></div>
+
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Project2" class="control-label"></label>
+									<input asp-for="Property.Project2" class="form-control" />
+									<span asp-validation-for="Property.Project2" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Karfarma2" class="control-label"></label>
+									<input asp-for="Property.Karfarma2" class="form-control" />
+									<span asp-validation-for="Property.Karfarma2" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Link2" class="control-label"></label>
+									<input asp-for="Property.Link2" class="form-control" />
+									<span asp-validation-for="Property.Link2" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label asp-for="Property.ProjectStart2" class="control-label"></label>
+											<input  asp-for="Property.ProjectStart2" class="form-control" />
+											<span asp-validation-for="Property.ProjectStart2" class="text-danger"></span>
+										</div>
+									</div>
+									<div class="col-md-6">
+
+										<div class="form-group">
+											<label asp-for="Property.ProjectEnd2" class="control-label"></label>
+											<input  asp-for="Property.ProjectEnd2" class="form-control" />
+											<span asp-validation-for="Property.ProjectEnd2" class="text-danger"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<!-- Part6 -->
+						<div class="row" v-show="part6">
+
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Article1" class="control-label"></label>
+									<input asp-for="Property.Article1" class="form-control" />
+									<span asp-validation-for="Property.Article1" class="text-danger"></span>
+								</div>
+							</div><div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Nasher1" class="control-label"></label>
+									<input asp-for="Property.Nasher1" class="form-control" />
+									<span asp-validation-for="Property.Nasher1" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Mortabet1" class="control-label"></label>
+									<input asp-for="Property.Mortabet1" class="form-control" />
+									<span asp-validation-for="Property.Mortabet1" class="text-danger"></span>
+								</div>
+							</div><div class="col-md-6">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label asp-for="Property.ArticleStart1" class="control-label"></label>
+											<input  asp-for="Property.ArticleStart1" class="form-control" />
+											<span asp-validation-for="Property.ArticleStart1" class="text-danger"></span>
+										</div>
+									</div>
+									<div class="col-md-6">
+
+										<div class="form-group">
+											<label asp-for="Property.ArticleEnd1" class="control-label"></label>
+											<input  asp-for="Property.ArticleEnd1" class="form-control" />
+											<span asp-validation-for="Property.ArticleEnd1" class="text-danger"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12"><hr /></div>
+
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Article2" class="control-label"></label>
+									<input asp-for="Property.Article2" class="form-control" />
+									<span asp-validation-for="Property.Article2" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Nasher2" class="control-label"></label>
+									<input asp-for="Property.Nasher2" class="form-control" />
+									<span asp-validation-for="Property.Nasher2" class="text-danger"></span>
+								</div>
+							</div><div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Property.Mortabet2" class="control-label"></label>
+									<input asp-for="Property.Mortabet2" class="form-control" />
+									<span asp-validation-for="Property.Mortabet2" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label asp-for="Property.ArticleStart2" class="control-label"></label>
+											<input  asp-for="Property.ArticleStart2" class="form-control" />
+											<span asp-validation-for="Property.ArticleStart2" class="text-danger"></span>
+										</div>
+									</div>
+									<div class="col-md-6">
+
+										<div class="form-group">
+											<label asp-for="Property.ArticleEnd2" class="control-label"></label>
+											<input  asp-for="Property.ArticleEnd2" class="form-control" />
+											<span asp-validation-for="Property.ArticleEnd2" class="text-danger"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container mb-3">
+							<div class="row button-box">
+								<div class="col-md">
+									<button v-on:click="next" class="btn btn-success w-100" type="button" v-show="next_button">بعدی</button>
+								</div>
+								<div class="col-md">
+									<button v-on:click="pervius" class="btn btn-danger w-100" type="button" v-show="pervius_button">قبلی</button>
+
+								</div>
+								<div class="col-md">
+									<button type="submit" v-show="submit_button" class="btn btn-warning w-100">ثبت</button>
+
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

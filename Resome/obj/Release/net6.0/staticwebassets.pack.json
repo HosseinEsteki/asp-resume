@@ -1,0 +1,1045 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\Resome.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Resome.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\Scripts\\PersianDate\\persian-date.js",
+      "PackagePath": "staticwebassets\\Scripts\\PersianDate\\persian-date.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\Scripts\\PersianDate\\persian-datepicker.css",
+      "PackagePath": "staticwebassets\\Scripts\\PersianDate\\persian-datepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\Scripts\\PersianDate\\persian-datepicker.js",
+      "PackagePath": "staticwebassets\\Scripts\\PersianDate\\persian-datepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\Scripts\\app.js",
+      "PackagePath": "staticwebassets\\Scripts\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\Scripts\\vue.js",
+      "PackagePath": "staticwebassets\\Scripts\\vue.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\Scripts\\vue.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\vue.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\Theme1\\Images\\bg-tile.png",
+      "PackagePath": "staticwebassets\\Theme1\\Images\\bg-tile.png"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\Theme1\\Images\\bullet.png",
+      "PackagePath": "staticwebassets\\Theme1\\Images\\bullet.png"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\Theme1\\responsive.css",
+      "PackagePath": "staticwebassets\\Theme1\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\Theme1\\styles.css",
+      "PackagePath": "staticwebassets\\Theme1\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\Theme2\\style.css",
+      "PackagePath": "staticwebassets\\Theme2\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\Theme2\\style.rtl.css",
+      "PackagePath": "staticwebassets\\Theme2\\style.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\image\\posts\\Aurora_Borealis_Atmosphere_Ultra_HD_Wallpaper_for_.jpg",
+      "PackagePath": "staticwebassets\\image\\posts\\Aurora_Borealis_Atmosphere_Ultra_HD_Wallpaper_for_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\image\\posts\\Dream_House_Ultra_HD_Wallpaper_for_4K_UHD_Widescre.jpg",
+      "PackagePath": "staticwebassets\\image\\posts\\Dream_House_Ultra_HD_Wallpaper_for_4K_UHD_Widescre.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\image\\posts\\Leopard_Ultra_HD_Wallpaper_for_4K_UHD_Widescreen_d.jpg",
+      "PackagePath": "staticwebassets\\image\\posts\\Leopard_Ultra_HD_Wallpaper_for_4K_UHD_Widescreen_d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\image\\posts\\Under_Sea_Draving_Ultra_HD_Wallpaper_for_4K_UHD_Wi.jpg",
+      "PackagePath": "staticwebassets\\image\\posts\\Under_Sea_Draving_Ultra_HD_Wallpaper_for_4K_UHD_Wi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\image\\users\\1.jpg",
+      "PackagePath": "staticwebassets\\image\\users\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\image\\users\\2.jpg",
+      "PackagePath": "staticwebassets\\image\\users\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\image\\users\\3.jpg",
+      "PackagePath": "staticwebassets\\image\\users\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\image\\users\\Travel_Double_O_Arch__Utah__Beautiful_View_Ultra_H.jpg",
+      "PackagePath": "staticwebassets\\image\\users\\Travel_Double_O_Arch__Utah__Beautiful_View_Ultra_H.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\image\\users\\avatar.jpg",
+      "PackagePath": "staticwebassets\\image\\users\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\icons\\default\\icons.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\icons\\default\\icons.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\icons\\default\\icons.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\icons\\default\\icons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\langs\\README.md",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\langs\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\license.txt",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\license.txt"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\models\\dom\\model.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\models\\dom\\model.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\models\\dom\\model.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\models\\dom\\model.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\advlist\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\advlist\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\advlist\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\anchor\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\anchor\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\anchor\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\autolink\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autolink\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autolink\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\autoresize\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autoresize\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autoresize\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\autosave\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autosave\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autosave\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\charmap\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\charmap\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\charmap\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\code\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\code\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\code\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\code\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\codesample\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\codesample\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\codesample\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\directionality\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\directionality\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\directionality\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\fullscreen\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\fullscreen\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\fullscreen\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\help\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\help\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\image\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\image\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\image\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\image\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\importcss\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\importcss\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\importcss\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\insertdatetime\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\insertdatetime\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\link\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\link\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\link\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\link\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\lists\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\lists\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\lists\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\lists\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\media\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\media\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\media\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\media\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\nonbreaking\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\nonbreaking\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\pagebreak\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\pagebreak\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\pagebreak\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\preview\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\preview\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\preview\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\preview\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\quickbars\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\quickbars\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\quickbars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\quickbars\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\save\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\save\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\save\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\save\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\searchreplace\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\searchreplace\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\searchreplace\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\table\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\table\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\table\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\table\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\template\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\template\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\template\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\template\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\visualblocks\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualblocks\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualblocks\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\visualchars\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualchars\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualchars\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\wordcount\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\wordcount\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\wordcount\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\content\\dark\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\dark\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\content\\dark\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\content\\default\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\default\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\content\\default\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\default\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\content\\document\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\document\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\content\\document\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\document\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\tinymce-5\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\tinymce-5\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\content\\writer\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\writer\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\content\\writer\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\writer\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\themes\\silver\\theme.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\themes\\silver\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\themes\\silver\\theme.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\themes\\silver\\theme.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\tinymce.d.ts",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\tinymce.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\tinymce.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\tinymce.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\lib\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\rezome\\theme1.en.jpg",
+      "PackagePath": "staticwebassets\\rezome\\theme1.en.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\rezome\\theme1.fa.jpg",
+      "PackagePath": "staticwebassets\\rezome\\theme1.fa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\rezome\\theme2.en.jpg",
+      "PackagePath": "staticwebassets\\rezome\\theme2.en.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\rezome\\theme2.fa.jpg",
+      "PackagePath": "staticwebassets\\rezome\\theme2.fa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\css\\all.css",
+      "PackagePath": "staticwebassets\\template\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\template\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\css\\custom.css",
+      "PackagePath": "staticwebassets\\template\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\css\\elegant-font-icons.css",
+      "PackagePath": "staticwebassets\\template\\css\\elegant-font-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\css\\font.css",
+      "PackagePath": "staticwebassets\\template\\css\\font.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\template\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\template\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\css\\style.css",
+      "PackagePath": "staticwebassets\\template\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Black.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Bold.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-DemiBold.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-DemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-ExtraBlack.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-ExtraBlack.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Fat.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Fat.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Hairline.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Hairline.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Heavy.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Heavy.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Light.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Medium.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Regular.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Thin.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-UltraLight.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-UltraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\template\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\template\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\ElegantIconsd41d.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\ElegantIconsd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\404.html",
+      "PackagePath": "staticwebassets\\template\\img\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\about-us.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\about-us.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\author\\4.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\author\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\1.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\10.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\11.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\12.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\14.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\15.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\16.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\2.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\20.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\21.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\22.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\23.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\24.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\25.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\26.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\27.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\28.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\3.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\4.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\5.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\6.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\7.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\8.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\blog\\9.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\call\\mobile.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\call\\mobile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\call\\phone.png",
+      "PackagePath": "staticwebassets\\template\\img\\call\\phone.png"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\template\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\hero\\1.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\hero\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\hero\\2.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\hero\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\hero\\3.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\hero\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\latest\\1.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\latest\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\latest\\3.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\latest\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\latest\\4.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\latest\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\logo-dark.png",
+      "PackagePath": "staticwebassets\\template\\img\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\img\\user\\2.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\user\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\js\\ajax-contact.js",
+      "PackagePath": "staticwebassets\\template\\js\\ajax-contact.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\js\\jquery-3.5.0.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery-3.5.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\js\\main.js",
+      "PackagePath": "staticwebassets\\template\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hosse\\source\\repos\\Resome\\Resome\\wwwroot\\template\\js\\switch.js",
+      "PackagePath": "staticwebassets\\template\\js\\switch.js"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.Resome.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.Resome.props",
+      "PackagePath": "build\\Resome.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Resome.props",
+      "PackagePath": "buildMultiTargeting\\Resome.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.Resome.props",
+      "PackagePath": "buildTransitive\\Resome.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

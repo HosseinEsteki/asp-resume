@@ -1,0 +1,94 @@
+﻿@page
+@model Resome.Pages.Admin.Users.IndexModel
+
+@{
+	ViewData["Title"] = "Index";
+}
+<style>
+ 	 table td{
+		vertical-align:baseline !important;
+		margin-top:auto;
+		margin-bottom:auto;
+	}
+	table .image{
+		width:150px
+	}
+</style>
+<section class="section pt-85">
+		<div class="container">
+	<div class="widget">
+		
+			<table class="table ">
+				<thead>
+					<tr>
+						<th>
+							@Html.DisplayNameFor(model => model.User[0].Image)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.User[0].IsAdmin)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.User[0].Password)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.User[0].Email)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.User[0].FirstName)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.User[0].LastName)
+						</th>
+
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var item in Model.User)
+					{
+
+						if (User.Identity.Name== item.Id.ToString())
+						{
+							continue;
+						}
+						<tr>
+							<td class="image">
+								<img src="~/image/users/@item.Image" class="rounded w-75">
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.IsAdmin)
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.Password)
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.Email)
+							</td>
+
+							<td>
+								@Html.DisplayFor(modelItem => item.FirstName)
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.LastName)
+							</td>
+							<td>
+								<a asp-page="./AdminAccess" asp-route-id="@item.Id" class="btn btn-warning btn-sm">
+									@if (!item.IsAdmin)
+									{
+										<text>اعطای دسترسی</text>
+									}
+									else
+									{
+										<text>حذف دسترسی</text>
+									}
+									
+								</a> |
+								<a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">حذف کاربر</a>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,188 @@
+﻿@page
+@using Resome.Pages.Rezome;
+@model ThemeModel
+@{
+	Layout = null;
+	User user = Model.user;
+	Property property = Model.Property;
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>قالب اول</title>
+	<meta name="author" content="Jake Rocheleau">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Simonetta:400,900|Balthazar">
+
+	<link href="~/theme1/styles.css" rel="stylesheet" />
+	<!-- CSS Plugins -->
+	<link rel="stylesheet" href="~/template/css/all.css">
+	<link rel="stylesheet" href="~/template/css/bootstrap.min.css">
+	<!-- main style -->
+	<link rel="stylesheet" href="~/template/css/style.css">
+	<link rel="stylesheet" href="~/template/css/custom.css">
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+	<section class="section" id="resume">
+		<div class="wrapper card">
+			<div class="container for-print">
+				<div class="row">
+					<div class="col-md-8 mr-auto ml-auto shadow p-3 mb-5 bg-dark text-light rounded h-75 for-print">
+						<div class="container-fluid bg-secondary for-print">
+							<div class="row">
+								<div class="col-md-8">
+									<div>
+										<h2 class="text-light"><span>@($"{user.FirstName} {user.LastName}")</span></h2>
+										<h4 class="text-light"><span>@property.Title</span></h4>
+										<p>
+											@if (property.City != null)
+											{
+
+												<small>
+													<span>@property.City , @property.Address</span>
+												</small>
+
+											}
+											@if (user.Email != null)
+											{
+												<br />
+												<small>
+													<span>@user.Email</span>
+												</small>
+											}
+											@if (property.Phone != null)
+											{
+												<br />
+												<small>
+													<span>@property.Phone</span>
+												</small>
+											}
+											@if (property.Gender != null)
+											{
+												<br />
+												<small>
+													<span>@property.Gender</span>
+												</small>
+											}
+											@if (property.Marry != null)
+											{
+												<br />
+												<small>
+													<span>@property.Marry</span>
+												</small>
+											}
+											@if (property.Sarbaz != null)
+											{
+												<br />
+												<small>
+													<span>@property.Sarbaz</span>
+												</small>
+											}
+											@if (property.Birth != null)
+											{
+												<br />
+												<small>Birth &bull; <span>@property.Birth</span></small>
+											}
+										</p>
+									</div>
+								</div>
+								<div class="col-md-4 mt-auto mb-auto">
+									<div>
+										<img src="~/image/users/@user.Image" class="w-75 rounded-circle d-block ml-auto mr-auto" alt="@user.Email" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div style="background-color:#708a9d8c;">
+
+							@if (user.Biography != null)
+							{
+								<section id="profile">
+									<h4 class="mb-2">My History & Profile</h4>
+									<p>
+										@user.Biography
+								</section>
+							}
+
+
+							@if (property.Uni1 != null)
+							{
+								<section id="education">
+									<h4 class="mb-2">Past Education</h4>
+									<p>@property.Maghta1 &bull; <span itemprop="alumniOf">@property.Uni1 ~ @property.Reshte1</span> @property.UniStart1 - @property.UniEnd1</p>
+									<p>@property.Maghta2 &bull; <span itemprop="alumniOf">@property.Uni2 ~ @property.Reshte2</span> @property.UniStart2 - @property.UniEnd2 </p>
+								</section>
+							}
+
+							@if (property.Job1 != null)
+							{
+								<section id="experience">
+									<h4 class="mb-2">Work Experience</h4>
+									<p>@property.Job1 &bull; @property.Company1 ~ @property.City1 ~ @property.JobStart1 - @property.JobEnd1</p>
+									<p>@property.Job2 &bull; @property.Company2 ~ @property.City2 ~ @property.JobStart2 - @property.JobEnd2</p>
+								</section>
+							}
+							@if (property.Project1 != null)
+							{
+								<section>
+									<h4 class="mb-2">Recent Projects</h4>
+									<p itemscope itemtype="http://schema.org/Article">
+										<span itemprop="name">
+											<a href="@property.Link1" itemprop="url" title="@property.Project1">@property.Project1</a>
+										</span>&bull; Published in <span itemprop="datePublished">@property.ProjectStart1 - @property.ProjectEnd1</span>
+									</p>
+									@if (property.Project2 != null)
+									{
+										<p>
+											<span itemprop="name">
+												<a href="@property.Link2" itemprop="url" title="@property.Project1">@property.Project2</a>
+											</span>&bull; Published in  <span itemprop="datePublished">@property.ProjectStart2 - @property.ProjectEnd2</span>
+										</p>
+									}
+								</section>
+							}
+							@if (property.Article1 != null)
+							{
+								<section id="articles">
+									<h4 class="mb-2">Recent Articles</h4>
+									<p itemscope itemtype="http://schema.org/Article">
+										<span itemprop="name">
+											<a href="@property.Mortabet1" itemprop="url" title="@property.Article1">@property.Article1</a>
+										</span> &bull; Published in <span itemprop="datePublished">@property.ArticleStart1 - @property.ArticleEnd1</span>
+									</p>
+									@if (property.Article2 != null)
+									{
+										<p itemscope itemtype="http://schema.org/Article">
+											<span itemprop="name">
+												<a href="@property.Mortabet2" itemprop="url" title="@property.Article2">@property.Article2</a>
+											</span> &bull; Published in <span itemprop="datePublished">@property.ArticleStart2 - @property.ArticleEnd2</span>
+										</p>
+									}
+
+								</section>
+							}
+
+						</div>
+						<button type="button" class="btn btn-outline-secondary" onclick="window.print()">چاپ صفحه</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="~/template/js/jquery-3.5.0.min.js"></script>
+	<script src="~/template/js/popper.min.js"></script>
+	<script src="~/template/js/bootstrap.min.js"></script>
+
+	<!-- JS main  -->
+	<script src="~/template/js/main.js"></script>
+	<script src="~/scripts/app.js"></script>
+</body>
+</html>

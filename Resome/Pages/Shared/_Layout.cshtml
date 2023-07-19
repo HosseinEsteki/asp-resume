@@ -1,0 +1,90 @@
+﻿
+
+<!doctype html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- favicon -->
+	<link rel="icon" sizes="16x16" href="~/template/img/favicon.png">
+
+	<!-- Title -->
+	<title> @ViewData["Title"] - رزومه ساز آنلاین </title>
+
+	<!-- Font Google -->
+	<link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&amp;display=swap"
+		  rel="stylesheet">
+
+	<!-- CSS Plugins -->
+	<link rel="stylesheet" href="~/template/css/all.css">
+	<link rel="stylesheet" href="~/template/css/elegant-font-icons.css">
+	<link rel="stylesheet" href="~/template/css/bootstrap.min.css">
+	<!-- main style -->
+	<link rel="stylesheet" href="~/template/css/style.css">
+	<link rel="stylesheet" href="~/template/css/custom.css">
+
+
+	<script src="https://unpkg.com/vue@3.0.2/dist/vue.global.js"></script>
+
+</head>
+
+<body dir="rtl" class="rtl d-flex flex-column min-vh-100">
+			@await Component.InvokeAsync("TopMenu")
+	<!--Body-->
+	@RenderBody()
+	<!--/-->
+	<!--footer-->
+	<footer class="footer mt-auto">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="copyright">
+						<p>این وبسایت توسط حسین استکی توسعه داده شده است</p>
+					</div>
+					<div class="back">
+						<a href="#" class="back-top">
+							<i class="arrow_up"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="~/template/js/jquery-3.5.0.min.js"></script>
+	<script src="~/template/js/popper.min.js"></script>
+	<script src="~/template/js/bootstrap.min.js"></script>
+
+	<!-- JS main  -->
+	<script src="~/template/js/main.js"></script>
+
+	<script src="https://cdn.tiny.cloud/1/9wwd7ibuc8ckzzzldijqtjw3ofmzgvqi9pm5t2o4x8y3hp4n/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+	<script>
+		tinymce.init({
+			//license: '9wwd7ibuc8ckzzzldijqtjw3ofmzgvqi9pm5t2o4x8y3hp4n',
+			selector: 'textarea.editor',
+			plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount',
+			//plugins: 'spellchecker pagebreak style layer table save advhr advimage advlink emotions iespell inlinepopups insertdatetime preview media searchreplace print contextmenu paste directionality fullscreen noneditable visualchars nonbreaking xhtmlxtras template',
+			toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',
+		});
+	</script>
+    <script src="~/Scripts/app.js"></script>
+
+
+
+
+	@await RenderSectionAsync("Scripts", required: false)
+
+</body>
+
+</html>

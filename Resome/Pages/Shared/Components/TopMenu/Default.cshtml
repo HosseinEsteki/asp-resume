@@ -1,0 +1,109 @@
+﻿@model User
+@{
+
+	User user = Model;
+}
+
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg fixed-top">
+	<div class="container-fluid">
+		<!--logo-->
+		<div class="logo">
+			<a href="~/">
+				<img src="~/template/img/logo-dark.png" alt="" class="logo-dark">
+				<img src="~/template/img/logo-white.png" alt="" class="logo-white">
+			</a>
+		</div>
+		<!--/-->
+		<!--navbar-collapse-->
+		<div class="collapse navbar-collapse" id="main_nav">
+			<ul class="navbar-nav ml-auto mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="~/"> خانه </a>
+				</li>
+				<li class="nav-item">
+					@if (User.Identity.IsAuthenticated)
+					{
+						<a class="nav-link" href="~/rezome"> ساخت رزومه </a>
+						
+					}
+					else
+					{
+						<a class="nav-link" href="~/login"> ساخت رزومه </a>
+					}
+				</li>
+				@if (User.Identity.IsAuthenticated)
+				{
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown"> @($"{user.FirstName} {user.LastName}") خوش آمدید</a>
+						<ul class="dropdown-menu fade-up">
+							<li><a class="dropdown-item" href="~/rezome/profile">درباره من</a></li>
+							<li><a class="dropdown-item" href="~/logout">خروج </a></li>
+						</ul>
+					</li>
+					@if (user.IsAdmin)
+					{
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown"> مدیریت سایت</a>
+							<ul class="dropdown-menu fade-up">
+								<li><a class="dropdown-item" href="~/admin/posts">مقالات</a></li>
+								<li><a class="dropdown-item" href="~/admin/posts/create">افزودن مقاله</a></li>
+								<li><a class="dropdown-item" href="~/admin/users">کاربران</a></li>
+							</ul>
+						</li>
+					}
+				}
+				else
+				{
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown"> حساب کاربری </a>
+						<ul class="dropdown-menu fade-up">
+							<li><a class="dropdown-item" href="~/register">ثبت نام</a></li>
+							<li><a class="dropdown-item" href="~/login">ورود </a></li>
+						</ul>
+					</li>
+				}
+
+				<li class="nav-item">
+					<a class="nav-link" href="~/AboutUs"> درباره ما </a>
+				</li>
+
+			</ul>
+		</div>
+		<!--/-->
+		<!--navbar-right-->
+		<div class="navbar-right ml-auto">
+
+			<div class="social-icones">
+				<ul class="list-inline">
+					<li>
+						<a href="#">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fab fa-youtube"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav"
+					aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>
+	</div>
+</nav>
+<!--/-->

@@ -1,0 +1,71 @@
+﻿@page
+@model Resome.Pages.Admin.Users.DeleteModel
+
+@{
+	ViewData["Title"] = "Delete";
+}
+<style>
+	table td {
+		vertical-align: baseline !important;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	table .image {
+		width: 150px
+	}
+</style>
+<section class="section pt-85">
+	<div class="container">
+		<div class="widget">
+
+
+			<h3>حذف کاربر</h3>
+
+			<h5>واقعا میخوای حذفش کنی؟</h5>
+			<div>
+				<hr />
+				<dl class="row">
+					<dt class="col-sm-2">
+						@Html.DisplayNameFor(model => model.User.IsAdmin)
+					</dt>
+					<dd class="col-sm-10">
+						@Html.DisplayFor(model => model.User.IsAdmin)
+					</dd>
+					<dt class="col-sm-2">
+						@Html.DisplayNameFor(model => model.User.Password)
+					</dt>
+					<dd class="col-sm-10">
+						@Html.DisplayFor(model => model.User.Password)
+					</dd>
+					<dt class="col-sm-2">
+						@Html.DisplayNameFor(model => model.User.Email)
+					</dt>
+					<dd class="col-sm-10">
+						@Html.DisplayFor(model => model.User.Email)
+					</dd>
+					<dt class="col-sm-2">
+						@Html.DisplayNameFor(model => model.User.FirstName)
+					</dt>
+					<dd class="col-sm-10">
+						@Html.DisplayFor(model => model.User.FirstName)
+					</dd>
+					<dt class="col-sm-2">
+						@Html.DisplayNameFor(model => model.User.LastName)
+					</dt>
+					<dd class="col-sm-10">
+						@Html.DisplayFor(model => model.User.LastName)
+					</dd>
+				</dl>
+
+				<form method="post">
+					<input type="hidden" asp-for="User.Id" />
+					<input type="submit" value="آره بابا" class="btn btn-danger" /> |
+					<a asp-page="./Index">بیخیالش</a>
+				</form>
+			</div>
+
+		</div>
+	</div>
+</section>
+

@@ -1,0 +1,119 @@
+﻿@page
+@model Resome.Pages.AboutUsModel
+@{
+	List<Post> Posts = Model.Posts;
+}
+<section class="section pt-50">
+	<div class="container-fluid">
+		<div class="row ">
+			<div class="col-lg-12">
+				<div class="section-title">
+					<h5>درباره ما</h5>
+				</div>
+			</div>
+		</div>
+
+		<div class="row ">
+			<div class="col-lg-8 mt-30">
+				<div class="about-us">
+					<div class="about-us-image">
+						<img src="~/template/img/about-us.jpg" alt="">
+					</div>
+					<div class="description">
+						<h6>از اینکه سایت ما رو انتخاب کردید ممنونیم</h6>
+						<p>
+							ایده این سایت از مدت ها قبل در ذهن ما بوده و بخاطر شما عزیزان این ایده عملی شده است
+						</p>
+						<p>
+							درباره روش کار وبسایت باید بگم که برای استفاده از بخش رزومه ساز آنلاین باید درون سایت
+							نام نویسی کنید تا این امکان برای شما فعال شود که بصورت رایگان بتونین رزومه ی خودتون رو
+							تهیه کنید و ازش بهره ببرید
+						</p>
+						<div class="quote">
+							<div>
+								<i class="icon_quotations_alt"></i>
+							</div>
+							<p>
+								"ساخت این وبسایت برای من جنبه ی تفریحی داشته و دوست دارم شما هم ازش لذت ببرین”
+							</p>
+							<small>سید محمد صادقی</small>
+						</div>
+						<p>
+							اگر دوست داشتین میتونین در تلگرام باهام در ارتباط باشین. همچنین اگه با وبسایت حال کردین
+							و کارتون رو راه انداخت و به هر روشی کارتون رو جلو برد میتونین منو دونیت کنین
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 max-width">
+				<!--widget-latest-posts-->
+				<div class="widget ">
+					<div class="section-title">
+						<h5>پست های اخیر</h5>
+					</div>
+					<ul class="widget-latest-posts">
+						@{
+							int i = 0;
+						}
+						@foreach (var item in Posts)
+						{
+							i++;
+							<li class="last-post">
+								<div class="image">
+									<a href="~/post?id=@item.Id">
+										<img src="~/image/posts/@item.Image" alt="...">
+									</a>
+								</div>
+								<div class="nb">@i</div>
+								<div class="content">
+									<p>
+										<a href="~/post?id=@item.Id">@item.Title</a>
+									</p>
+									<small>
+										<span class="icon_clock_alt"></span> @item.Updated_At.ToShortDateString()
+									</small>
+								</div>
+							</li>
+							@if (i > 4) { break; }
+
+						}
+					</ul>
+				</div>
+				<!--/-->
+				<!--widget-Call-->
+				<div class="widget">
+					<div class="section-title">
+						<h5>شماره تماس</h5>
+					</div>
+					<ul class="widget-latest-posts">
+						<li class="last-post">
+							<div class="image">
+								<a href="post-default.html">
+									<img src="template/img/call/phone.png" alt="...">
+								</a>
+							</div>
+							<div class="content mt-auto mb-auto">
+								<p style="direction: ltr;" class="">
+									+98 31 3555 3375
+								</p>
+							</div>
+						</li>
+						<li class="last-post">
+							<div class="image">
+								<a href="post-default.html">
+									<img src="template/img/call/mobile.jpg" alt="...">
+								</a>
+							</div>
+							<div class="content mt-auto mb-auto">
+								<p style="direction: ltr;" class="">
+									+98 913 771 2530
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--/-->
+			</div>
+		</div>
+	</div>
+</section>

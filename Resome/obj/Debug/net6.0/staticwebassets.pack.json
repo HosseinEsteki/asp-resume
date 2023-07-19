@@ -1,0 +1,413 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Resome.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Resome.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\Scripts\\app.js",
+      "PackagePath": "staticwebassets\\Scripts\\app.js"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\Theme1\\Images\\bg-tile.png",
+      "PackagePath": "staticwebassets\\Theme1\\Images\\bg-tile.png"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\Theme1\\Images\\bullet.png",
+      "PackagePath": "staticwebassets\\Theme1\\Images\\bullet.png"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\Theme1\\responsive.css",
+      "PackagePath": "staticwebassets\\Theme1\\responsive.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\Theme1\\styles.css",
+      "PackagePath": "staticwebassets\\Theme1\\styles.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\Theme2\\style.css",
+      "PackagePath": "staticwebassets\\Theme2\\style.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\Theme2\\style.rtl.css",
+      "PackagePath": "staticwebassets\\Theme2\\style.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap-rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap-rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\bootstrap-rtl\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap-rtl\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\image\\posts\\9dys3yk5yp8m.jpeg",
+      "PackagePath": "staticwebassets\\image\\posts\\9dys3yk5yp8m.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\image\\posts\\Cat_Ultra_HD_Wallpaper_for_4K_UHD_Widescreen_deskt.jpg",
+      "PackagePath": "staticwebassets\\image\\posts\\Cat_Ultra_HD_Wallpaper_for_4K_UHD_Widescreen_deskt.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\image\\posts\\R.jpg",
+      "PackagePath": "staticwebassets\\image\\posts\\R.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\image\\posts\\R.png",
+      "PackagePath": "staticwebassets\\image\\posts\\R.png"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\image\\posts\\icon.webp",
+      "PackagePath": "staticwebassets\\image\\posts\\icon.webp"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\image\\posts\\images.jpg",
+      "PackagePath": "staticwebassets\\image\\posts\\images.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\image\\posts\\رزومه-دانشجویی.png",
+      "PackagePath": "staticwebassets\\image\\posts\\رزومه-دانشجویی.png"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\image\\users\\1.jpg",
+      "PackagePath": "staticwebassets\\image\\users\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\image\\users\\2.jpg",
+      "PackagePath": "staticwebassets\\image\\users\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\image\\users\\3.jpg",
+      "PackagePath": "staticwebassets\\image\\users\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\image\\users\\avatar.jpg",
+      "PackagePath": "staticwebassets\\image\\users\\avatar.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\rezome\\theme1.en.jpg",
+      "PackagePath": "staticwebassets\\rezome\\theme1.en.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\rezome\\theme1.fa.jpg",
+      "PackagePath": "staticwebassets\\rezome\\theme1.fa.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\rezome\\theme2.en.jpg",
+      "PackagePath": "staticwebassets\\rezome\\theme2.en.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\rezome\\theme2.fa.jpg",
+      "PackagePath": "staticwebassets\\rezome\\theme2.fa.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\css\\all.css",
+      "PackagePath": "staticwebassets\\template\\css\\all.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\template\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\css\\custom.css",
+      "PackagePath": "staticwebassets\\template\\css\\custom.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\css\\elegant-font-icons.css",
+      "PackagePath": "staticwebassets\\template\\css\\elegant-font-icons.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\css\\font.css",
+      "PackagePath": "staticwebassets\\template\\css\\font.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\css\\style.css",
+      "PackagePath": "staticwebassets\\template\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Black.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Black.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Bold.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Bold.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-DemiBold.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-DemiBold.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-ExtraBlack.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-ExtraBlack.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-ExtraBold.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Fat.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Fat.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Hairline.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Hairline.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Heavy.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Heavy.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Light.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Light.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Medium.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Medium.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Regular.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Regular.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-Thin.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-Thin.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\Dana\\Dana-UltraLight.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Dana\\Dana-UltraLight.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\template\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\template\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\ElegantIconsd41d.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\ElegantIconsd41d.eot"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\fonts\\fontawesome\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\img\\about-us.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\about-us.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\img\\call\\mobile.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\call\\mobile.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\img\\call\\phone.png",
+      "PackagePath": "staticwebassets\\template\\img\\call\\phone.png"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\template\\img\\favicon.png"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\img\\logo-dark.png",
+      "PackagePath": "staticwebassets\\template\\img\\logo-dark.png"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\js\\jquery-3.5.0.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery-3.5.0.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\js\\main.js",
+      "PackagePath": "staticwebassets\\template\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Projects\\Visual Studio\\Resome\\Resome\\wwwroot\\template\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\popper.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Resome.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Resome.props",
+      "PackagePath": "build\\Resome.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Resome.props",
+      "PackagePath": "buildMultiTargeting\\Resome.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Resome.props",
+      "PackagePath": "buildTransitive\\Resome.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

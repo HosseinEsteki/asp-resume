@@ -1,0 +1,13 @@
+﻿@font-face {
+    font-family: 'Dana';
+    src: url('../fonts/Dana/Dana-Regular.ttf');
+}
+* {
+    font-family: Dana;
+}
+body {
+    font-family: Dana;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Dana !important;
+}

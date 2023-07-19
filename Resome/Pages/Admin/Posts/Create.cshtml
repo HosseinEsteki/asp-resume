@@ -1,0 +1,76 @@
+﻿@page
+@model Resome.Pages.Admin.Posts.CreateModel
+
+@{
+    ViewData["Title"] = "ایجاد مقاله";
+}
+
+<style>
+    table td {
+        vertical-align: baseline !important;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    table .image {
+        width: 150px
+    }
+</style>
+<section class="section pt-85">
+    <div class="container">
+        <div class="widget">
+
+            <h3>ایجاد پست</h3>
+            <hr />
+            <div class="row">
+                <div class="col-md-12">
+                        <form method="post" enctype="multipart/form-data">
+                    <div class="row">
+                            <div col-md-4>
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <label asp-for="Post.Image" class="control-label"></label>
+                                <input asp-for="Post.Image" class="form-control" />
+
+                                <span asp-validation-for="Post.Image" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Post.Title" class="control-label"></label>
+                                <input asp-for="Post.Title" class="form-control" />
+                                <span asp-validation-for="Post.Title" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Post.ShortDiscription" class="control-label"></label>
+                                <textarea asp-for="Post.ShortDiscription" class="form-control"></textarea>
+                                <span asp-validation-for="Post.ShortDiscription" class="text-danger"></span>
+                            </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="form-group">
+                                    <label asp-for="Post.Description" class="control-label"></label>
+                                    <textarea id="mytextarea" asp-for="Post.Description" class="form-control editor"></textarea>
+                                    <span asp-validation-for="Post.Description" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="افزودن" class="btn btn-primary" />
+                            </div>
+                    </div>
+                        </form>
+                    
+                </div>
+            </div>
+
+            <div>
+                <a asp-page="Index">بازگشت به لیست مقالات</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+@section Scripts {
+    @{
+        //بررسی وارد کردن همه ی فیلدها با استفاده از جاوا اسکریپت
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

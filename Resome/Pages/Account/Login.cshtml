@@ -1,0 +1,44 @@
+﻿@page "/login"
+@model Resome.Pages.Auth.LoginModel
+@{
+}
+<!--Login-->
+<section class="section pt-55 mb-50">
+	<div class="container">
+		<div class="sign widget ">
+			<div class="section-title">
+				<h5>ورود</h5>
+			</div>
+			<form asp-action="Login" class="sign-form widget-form">
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+				<div class="form-group">
+					@*نمایش نام فیلد ایمیل*@
+					<label asp-for="Login.Email" class="control-label">آدرس ایمیل</label>
+					@*دریافت یا نمایش فیلد ایمیل*@
+					<input asp-for="Login.Email" class="form-control" placeholder="آدرس ایمیل*">
+					@*نمایش خطاهای مربوط به ایمیل*@
+					<span asp-validation-for="Login.Email" class="text-danger"></span>
+
+				</div>
+				<div class="form-group">
+					<label asp-for="Login.Password" class="control-label">رمز عیور</label>
+					<input asp-for="Login.Password" class="form-control" placeholder="رمز عبور*">
+					<span asp-validation-for="Login.Password" class="text-danger"></span>
+				</div>
+				<div class="form-group form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" asp-for="Login.RememberMe" /> 
+						@*نمایش نام فیلد مرا به خاطر بسپار*@
+						@Html.DisplayNameFor(model => model.Login.RememberMe)
+					</label>
+				</div>
+
+				<div class="form-group">
+					<input value="ورود" type="submit" class="btn-custom" />
+				</div>
+				<p class="form-group text-center">هنوز حسابتو نساختی؟ <a asp-page="./register" class="btn-link">دست بجنبون</a> </p>
+			</form>
+		</div>
+	</div>
+</section>

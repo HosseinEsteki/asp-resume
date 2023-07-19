@@ -1,0 +1,149 @@
+﻿@page
+@model Resome.Pages.AuthorModel
+@{
+	User Author = Model.Author;
+}
+<section class="section author full-space mb-40 pt-55">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<!--widget-author-->
+				<div class="widget-author inner-width">
+					<a href="#" class="image">
+						<img src="~/image/users/@Author.Image" alt="">
+					</a>
+					<h6><span>درود، من @($"{Author.FirstName} {Author.LastName}") هستم</span></h6>
+					@*<div class="link">2 مقاله</div>*@
+					<p>
+						@Author.Biography
+					</p>
+
+					<div class="social-media">
+						<ul class="list-inline">
+							<li>
+								<a href="#" class="color-facebook">
+									<i class="fab fa-facebook"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="color-instagram">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="color-twitter">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="color-youtube">
+									<i class="fab fa-youtube"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="color-pinterest">
+									<i class="fab fa-pinterest"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--mansory-layout-->
+<section class="masonry-layout col2-layout mt-30">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<!--cards-->
+				<div class="card-columns">
+					<!--Posts-->
+					@*@await Component.InvokeAsync("ShowPosts",new{
+					userId=Author.Id
+					})*@
+					@{
+						List<Post> posts = Model._context.Posts.Where(x => x.UserId == Author.Id).ToList();
+					}
+					@foreach (var Post in posts)
+					{
+						<div class="card">
+							<div class="post-card post-full">
+								<div class="post-card-image">
+									<a href="~/post?id=@Post.Id"><img src="~/image/posts/@Post.Image" alt="@Post.Title"></a>
+								</div>
+								<div class="post-card-content">
+									<h5>
+										<a href="~/post?id=@Post.Id">@Post.Title</a>
+									</h5>
+									<p>
+										@Post.ShortDiscription
+									</p>
+									<div class="post-card-info">
+										<ul class="list-inline">
+											<li>
+												<a href="#">
+													<img src="~/image/users/@Author.Image" alt="">
+												</a>
+											</li>
+											<li>
+												<a href="#">@($"{Author.FirstName} {Author.LastName}")</a>
+											</li>
+											<li class="dot"></li>
+											@{
+												DateTime Date = Post.Updated_At;
+												PersianCalendar pc = new PersianCalendar();
+												string date;
+												int day, month, year;
+												day = pc.GetDayOfMonth(Date);
+												month = pc.GetMonth(Date);
+												year = pc.GetYear(Date);
+												date = $"{year}/{month}/{day}";
+											}
+
+											<li>@date</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					}
+
+				</div>
+				@*
+				<!--pagination-->
+				<div class="pagination mt-30">
+				<ul class="list-inline">
+				<li>
+				<a href="#">
+				<i class="arrow_carrot-2right"></i>
+				</a>
+				</li>
+				<li class="active">
+				<a href="#">1</a>
+				</li>
+				<li>
+				<a href="#">2</a>
+				</li>
+				<li>
+				<a href="#">3</a>
+				</li>
+				<li>
+				<a href="#">4</a>
+				</li>
+				<li>
+				<a href="#">
+				<i class="arrow_carrot-2left"></i>
+				</a>
+				</li>
+				</ul>
+				</div>
+				<!--/-->*@
+			</div>
+
+		</div>
+	</div>
+</section>
+<!--/-->

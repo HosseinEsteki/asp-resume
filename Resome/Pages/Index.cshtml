@@ -1,0 +1,71 @@
+﻿@page
+@model Resome.Pages.IndexModel
+@{
+}
+<!--grid-layout-->
+<section class="section pt-85">
+    <div class="container-fluid">
+        <div class="row">
+            @*@{
+            int i = 0;
+            Connection connection=new Connection()
+            }*@
+
+
+            @foreach (var item in Model.Posts)
+            {
+                User User = Model._context.Users.Find(item.UserId);
+                <!--Post-->
+                <div class="col-lg-4 col-md-6">
+                    <div class="post-card">
+                        <div class="post-card-image">
+                            <a href="~/post?id=@item.Id">
+                                <img src="~/image/posts/@item.Image" alt="">
+                            </a>
+                        </div>
+                        <div class="post-card-content">
+                            <h5>
+                                <a href="~/post?id=@item.Id"> @item.Title </a>
+                            </h5>
+                            <p>
+                                @item.ShortDiscription
+                            </p>
+                            <div class="post-card-info">
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="~/author?id=@User.Id">
+                                            <img src="~/image/users/@User.Image" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="~/author?id=@User.Id"> @($"{item.User.FirstName} {item.User.LastName}")</a>
+                                    </li>
+                                    <li class="dot"></li>
+                                    @{
+                                        DateTime Date = item.Updated_At;
+                                        PersianCalendar pc = new PersianCalendar();
+                                        string date;
+                                        int day, month, year;
+
+
+                                        day = pc.GetDayOfMonth(Date);
+                                        month = pc.GetMonth(Date);
+                                        year = pc.GetYear(Date);
+
+                                        date = $"{year}/{month}/{day}";
+                                    }
+                                    <li>@date</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/-->
+            }
+
+            
+            </div>
+        </div>
+    </div>
+</section>
+<!--/-->
